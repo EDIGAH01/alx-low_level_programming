@@ -1,12 +1,12 @@
 #include<stdio.h>
 /**
- * main  : Entry point
+ * main  - Entry point
  *
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ;
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	
 	int i;
 	for (i = 0; i < 52; i++)
