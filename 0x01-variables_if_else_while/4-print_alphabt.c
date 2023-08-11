@@ -1,17 +1,18 @@
 #include<stdio.h>
 /**
- * main  : Entry point
+ * main  - Entry point
  *
  * Return: Always  0 (success)
  */
 int main(void)
 {
-	alp[24] = "abcdfghijklmnoprstuvwxyz";
+	char alp[24] = "abcdfghijklmnoprstuvwxyz";
 	int i;
+
 	for(i = 0; i < 24; i++)
 	{
 		putchar(alp[i]);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
