@@ -4,7 +4,8 @@
 /* more headers goes there */
 
 /**
- * main  : Prints whaether the number is  positive_or_negative
+ * main  - Prints whaether the number is  positive_or_negative
+ *
  * Return: Always 0 (success)
  */
 int main(void)
